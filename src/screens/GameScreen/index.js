@@ -110,7 +110,7 @@ const GameScreen = props => {
       />
       <View style={styles.textContainer}>
         <Text style={styles.text2}>Attempts: {counter}</Text>
-        <Text style={styles.text2}>Matches: {matches}</Text>
+        <Text style={styles.text2}>Matched: {matches}</Text>
       </View>
     </View>
   );
